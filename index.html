@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<div class="container col-7 block" style="visibility: visible;">
+		<div class=""> <h2>Сколько миллиардов людей проживают на нашей планете</h2></div>
+		<div class="border text-center answer1"><h5>8</h5></div>
+		<div class="border text-center answer2"><h5>7000 млн</h5></div>
+		<div class="border text-center answer3"><h5>7</h5></div>
+	</div>
+	<div class="container col-7 block1" style="visibility: hidden">
+		<div class=""> <h2>Сколько лет назад появился человек</h2></div>
+		<div class="border text-center answer4"><h5>6-7 млн лет назад</h5></div>
+		<div class="border text-center answer5"><h5>1.5-2 млн лет назад</h5></div>
+		<div class="border text-center answer6"><h5>>500тысяч лет назад</h5></div>
+	</div>
+	<div class="container col-7 block2" style="visibility: hidden">
+		<div class=""> <h2>Самый касссовый фильм 2018 года</h2></div>
+		<div class="border text-center answer7"><h5>Черная пантера</h5></div>
+		<div class="border text-center answer8"><h5>Мир Юрского периода 2</h5></div>
+		<div class="border text-center answer9"><h5>Мстители:Война БесКонечности</h5></div>
+	</div>
+	<div class="container col-7 block3" style="visibility: hidden">
+		<img src="bomb.jpg">
+		<div class=""> <h2>Что за игра</h2></div>
+		<div class="border text-center otvet"><h5>Bomber Friends</h5></div>
+		<div class="border text-center otvet1"><h5>Bombers</h5></div>
+		<div class="border text-center otvet2"><h5>BombSquad</h5></div>
+	</div>
+	<div class="container col-7 block4" style="visibility: hidden">
+		<img src="is.jpg">
+		<div class=""> <h2>В честь кого назван танк?</h2></div>
+		<div class="border text-center otvet3"><h5>Иосиф Сталин</h5></div>
+		<div class="border text-center otvet4"><h5>Климент Ворошилов</h5></div>
+		<div class="border text-center otvet5"><h5>Иван Павлович Сухой</h5></div>
+	</div>
+	<div class="container col-7 block5" style="visibility: hidden">
+		<audio controls>
+    		<source src="d.ogg" type="audio/ogg; codecs=vorbis">
+   	 		<source src="d.mp3" type="audio/mpeg">
+    	Ваш браузер не поддерживает тег audio.
+		</audio>
+		<div class=""> <h2>Из какого фильма саундтрек?</h2></div>
+		<div class="border text-center otvet6"><h5>День сурка</h5></div>
+		<div class="border text-center otvet7"><h5>Магнолия</h5></div>
+		<div class="border text-center otvet8"><h5>Назад в будущее</h5></div>
+	</div>
+	<div class="container col-7 block6" style="visibility: hidden;margin-top: 450px">
+		<div class=""> <h2>Что это?</h2></div>
+		<div class="border text-center otvet9"><h5>Невидимый див</h5></div>
+		<div class="border text-center otvet10"><h5>Белая картинка</h5></div>
+		<div class="border text-center otvet11"><h5>Ничего</h5></div>
+	</div>
+	<div class="container col-7 block7" style="visibility: hidden">
+		<div class="text-center"><h2>Поздравляю,вы прошли этот тест</h2>
+			<h2>На сколько баллов вы его прошли?</h2></div>
+		<div class="border text-center otvet12"><h5>1-3</h5></div>
+		<div class="border text-center otvet13"><h5>4-5</h5></div>
+		<div class="border text-center otvet14"><h5>6-7</h5></div>
+	</div>
+	<div class="container col-7 block8" style="visibility: hidden">
+		<div class="text-center"><h1>Все</h1></div>
+			
+	</div>
+
+<script type="text/javascript">
+	//pervui
+document.querySelector('.answer1').onclick = function(){
+	alert("Без комментариев");
+}
+document.querySelector('.answer2').onclick = function(){
+	alert("Без комментариев");
+	
+}
+document.querySelector('.answer3').onclick = function(){
+	alert("Правильно");
+	document.querySelector('.block').remove();
+	document.querySelector('.block1').style.visibility = "visible"
+}
+//vtoroi
+document.querySelector('.answer4').onclick = function(){
+	alert("Правильно");
+	document.querySelector('.block1').remove();
+	document.querySelector('.block2').style.visibility = "visible"
+}
+document.querySelector('.answer5').onclick = function(){
+	alert("Неправильно");
+	
+}
+document.querySelector('.answer6').onclick = function(){
+	alert("Неправильно");
+	
+}
+//tretii
+document.querySelector('.answer7').onclick = function(){
+	alert("Net");
+	
+}
+document.querySelector('.answer8').onclick = function(){
+	alert("Net");
+	
+}
+document.querySelector('.answer9').onclick = function(){
+	alert("Da");
+	document.querySelector('.block2').remove();
+	document.querySelector('.block3').style.visibility = "visible"
+	
+}
+//chetvertui
+document.querySelector('.otvet').onclick = function(){
+	alert("Ошибка");
+	
+}
+document.querySelector('.otvet1').onclick = function(){
+	alert("Нет");
+	
+}
+document.querySelector('.otvet2').onclick = function(){
+	alert("бомбсквадеры поймут");
+	document.querySelector('.block3').remove();
+	document.querySelector('.block4').style.visibility = "visible"
+	
+}
+//pyatui
+document.querySelector('.otvet3').onclick = function(){
+	alert("Сталин мощь...");
+	document.querySelector('.block4').remove();
+	document.querySelector('.block5').style.visibility = "visible"
+}
+document.querySelector('.otvet4').onclick = function(){
+	alert("Это не кв");
+	
+}
+document.querySelector('.otvet5').onclick = function(){
+	alert("Это не су");
+}
+
+//shestoi
+document.querySelector('.otvet6').onclick = function(){
+	alert("Pravil'no");
+	document.querySelector('.block5').remove();
+	document.querySelector('.block6').style.visibility = "visible"
+}
+document.querySelector('.otvet7').onclick = function(){
+	alert("Nepravil'no");
+	
+}
+document.querySelector('.otvet8').onclick = function(){
+	alert("Nepravil'no");
+}
+//sed'moi
+document.querySelector('.otvet9').onclick = function(){
+	alert("Не повезло");
+	
+}
+document.querySelector('.otvet10').onclick = function(){
+	alert("Нет");
+	
+}
+document.querySelector('.otvet11').onclick = function(){
+	alert("...");
+	document.querySelector('.block6').remove();
+	document.querySelector('.block7').style.visibility = "visible"
+}
+//vos'moi
+document.querySelector('.otvet12').onclick = function(){
+	alert("Ochen' ploho");
+	
+}
+document.querySelector('.otvet13').onclick = function(){
+	alert("Neploho");
+	
+}
+document.querySelector('.otvet14').onclick = function(){
+	alert("Molodec");
+	document.querySelector('.block7').remove();
+	document.querySelector('.block8').style.visibility = "visible"
+}
+
+
+
+	
+</script>
+
+	
+
+
+</body>
+</html>
